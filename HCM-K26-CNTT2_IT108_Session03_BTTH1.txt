@@ -1,0 +1,15 @@
+﻿Bài 1: Quản lý lưu trữ và đường dẫn tệp trong Windows 
+Phần 1:(Phân tích)
+Sai lầm của Nam:
+Sai lầm vị trí lưu trữ: lưu trong Windows\system32 trong ổ C sẽ có hậu quả như: 
+-nếu như Nam cài đặt nâng cấp window thì file sẽ mất ở ổ C.
+-Lỗi không thể truy cập yêu cầu cần cấp quyền  "Permission Denied"
+Cách đặt tên file: Nam đặt tên file có khoảng cách như "bai tap 1" thì sẽ hệ thống sẽ không nhận diện được, nên đặt lại kiểu Snake_case "Bai_tap_1.py" hoặc Kenab-case "Session-01".
+Nam không hiểu biết về gói mạng có tốc độ mạng là 100 Mbps = 12.5 Mb/s  tốc độ tải, Nam nghĩ tốc độ mạng 100 Mbps chính là thời gian tải là 100 Mb/s nên khi gặp 12.5 Mb/s thì Nam hiểu lầm do thiếu hiểu biết nên đã nghĩ nhà mạng lừa đảo
+Ổ cứng SSD 256GB thực tế hiển thị nhỏ hơn vì:
+1GB = 1 000 000 000 bytes vậy 256GB = 256 000 000 000 bytes 
+Windows hiển thị theo hệ nhị phân: 1GB = 1073741824 bytes 
+Nên 256 000 000 000 bytes = 238,4185791GB thì đây mới là con số GB thực tế mà máy tính hiển thị.
+
+Phần 2:Thiết kế lại cây thư mục học tập chuẩn trên ổ D: cho Nam
+"D:\hcm26-cntt2\nhap-mon-cntt\session-01\bai-tap-1.py"
